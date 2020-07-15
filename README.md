@@ -9,7 +9,7 @@ Chrome will start up and set up your intervals and start one after the other.
 - Python 3.7
 - Selenium
 - Google Chrome browser
-- Chromedriver
+- ChromeDriver
 
 You need to install chromedriver.exe from here: https://sites.google.com/a/chromium.org/chromedriver/ \
 Then, create a txt file called 'config.txt' and write down the path to your Chromedriver installation.
