@@ -66,10 +66,9 @@ def create_and_start_interval(min_plus, sec_plus, interval):
 # links = read_lines_from_txt_file('links.txt')
 
 # Open Chrome
-chrome_driver = 'D:\Downloads\Treiber\chromedriver.exe'
+chrome_driver = read_lines_from_txt_file('config.txt')
 options = Options()
 options.page_load_strategy = 'none'
-options.add_argument('user-data-dir=C:\\Users\Andreas\AppData\Local\Google\Chrome\\User Data\Default')
 options.add_experimental_option("excludeSwitches", ['enable-automation'])
 driver = webdriver.Chrome(chrome_driver, options=options)
 driver.maximize_window()
