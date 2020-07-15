@@ -11,4 +11,5 @@ Chrome will start up and set up your first interval and start it.
 - Google Chrome browser
 - Chromedriver
 
-You need to install chromedriver.exe from here: https://sites.google.com/a/chromium.org/chromedriver/
+You need to install chromedriver.exe from here: https://sites.google.com/a/chromium.org/chromedriver/ \
+Then, create a txt file called 'config.txt' and write down the path to your Chromedriver installation.
